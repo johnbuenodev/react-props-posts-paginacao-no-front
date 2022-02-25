@@ -1,0 +1,13 @@
+.button-custom {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 16px;
+    background: green;
+    color: white;
+}
+
+.button-custom:disabled {
+    background: gray;
+    cursor: not-allowed;
+}

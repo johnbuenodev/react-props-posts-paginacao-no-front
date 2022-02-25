@@ -1,0 +1,18 @@
+.posts {
+  
+    display: grid;
+    /* aplica auto auto-fill 
+       maximo de 280px para cada elemento em tela
+       Para telas de mobile exemplo
+    */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    /* gap espaçamento entro os elementos na grid */
+    gap: 25px; /* 30px */ 
+    background: #fff;
+  }
+
+@media only screen and (max-width: 500px ) {  
+    .posts {
+     background: #fff;
+    }
+}
